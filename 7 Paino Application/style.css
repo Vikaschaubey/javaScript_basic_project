@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #a8caa5;
+}
+
+.piano-container{
+    padding: 10px;
+}
+h1{
+    padding: 0;
+    margin-top: 0;
+}
+
+button{
+    width: 60px;
+    height: 200px;
+    margin: 2px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 4px 8px rgba(200, 050, 011, 0.3);
+}
+
+.white-key{
+    background-color: aliceblue;
+}
+.white-key:active{
+    transform: scale(0.97);
+}
+.black-key{
+    background-color: black;
+    color: white;
+}
+.black-key:active{
+    transform: scale(0.97);
+}
